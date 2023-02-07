@@ -24,8 +24,8 @@ import java.util.Map;
 @Service
 public class CrawlServiceImpl implements CrawlService{
 
-    private final static String userName = "d629";
-    private final static String password = "wzyyjf88!";
+    private final static String userName = "**";
+    private final static String password = "***";
 
     public Object crawl() throws Exception{
         try(Playwright playwright = Playwright.create()){
